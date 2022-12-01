@@ -163,7 +163,9 @@ typedef struct {
   */
 
 /** I2C Device Address 8 bit format  **/
+#ifndef HTS221_I2C_ADDRESS
 #define HTS221_I2C_ADDRESS         0xBFU
+#endif
 
 /** Device Identification (Who am I) **/
 #define HTS221_ID                  0xBCU
